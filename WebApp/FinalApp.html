@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Find way to generate this title for onload, specific title for detail page-->
+<title>Proteins</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"> 
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="util.js"></script>
+<script src="FinalApp.js"></script>
+</head>
+<body onload="renderproteins()">
+<h2>Go to Table:</h2>
+<!--<h1 onload="rendervariants()">Variants</h1>-->
+<!--<h1 onload="renderdiseases()">Variants</h1>-->
+<A href="javascript:void(0);" onclick="renderproteins()">  Protein Table  </A>
+<br>
+<A href="javascript:void(0);" onclick="rendervariants()">  Variant Table  </A>
+<br>
+<A href="javascript:void(0);" onclick="renderdiseases()">  Disease Table  </A>
+<div id="container"/>
+</body>
+</html> 
